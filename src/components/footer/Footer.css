@@ -1,0 +1,56 @@
+.footer-section {
+  padding: 2.5rem 15rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.foot-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.foot-list {
+  color: #868e96;
+}
+.foot-pay {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.pay-card {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.pay-card img {
+  width: 64px;
+  height: 64px;
+}
+.copyright {
+  margin: 6rem 0 3rem;
+  font-size: 0.8rem;
+  color: #868e96;
+}
+@media only screen and (max-width: 414px) {
+  .footer-section {
+    padding: 0.5rem 0 0.5rem 3rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-section h4 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .foot-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-section img {
+    display: flex;
+  }
+}

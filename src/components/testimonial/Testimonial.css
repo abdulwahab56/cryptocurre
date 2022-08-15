@@ -1,0 +1,67 @@
+.testimonial-section {
+  margin-top: 13rem;
+  padding: 2.5rem 15rem;
+  background: #f8f9fa;
+  color: black;
+}
+.testimonail-text {
+  text-align: center;
+  width: 80%;
+  margin-left: 7rem;
+}
+.testimonial-feature {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.textimon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.5);
+}
+.testimonial-img {
+  width: 54px;
+  margin-bottom: 2.5rem;
+}
+.bit-coin {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.bit-coin::after {
+  content: "BTC";
+  color: #adb5bd;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 4px;
+  right: -30px;
+}
+.text-detail {
+  text-align: center;
+  color: #adb5bd;
+  margin-bottom: 2rem;
+}
+.text-icon {
+  width: 46px;
+  height: 46px;
+  background-color: #f8f9fa;
+  color: blue;
+  border-radius: 50%;
+  border: 2px solid #adb5bd;
+}
+.clrchange {
+  background-image: url(../img/newsletter-bg.png);
+  color: #fff;
+}
+@media only screen and (max-width: 414px) {
+  .testimonial-section {
+    padding: 0.5rem 0 0.5rem 3rem;
+    margin-top: 15rem;
+  }
+  .testimonial-feature {
+    flex-direction: column;
+  }
+}
